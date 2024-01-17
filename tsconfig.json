@@ -1,4 +1,5 @@
 {
+  "extends": "./tsconfig.paths.json",
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -18,5 +19,5 @@
     "jsxImportSource": "@emotion/react"
     // "types": ["@emotion/react/types/css-prop", "node"]
   },
-  "include": ["src"]
+  "include": ["src", "craco.config.js"]
 }
